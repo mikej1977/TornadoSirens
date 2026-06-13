@@ -1,0 +1,16 @@
+module Base
+{
+    sound Sound_TornadoSiren
+    {
+        category = World,
+        is3D = false,
+        clip
+        {
+            file = media/sound/Sound_TornadoSiren66.ogg,
+            distanceMin = 0,
+            distanceMax = 150,
+            reverbMaxRange = 150,
+            volume = 1.0,
+        }
+    }
+}

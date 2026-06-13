@@ -1,0 +1,28 @@
+module TornadoSirenMod
+{
+    animationsMesh SirenMesh
+    {
+        meshFile = IsoObject/TornadoSiren,
+        keepMeshAnimations = true,
+    }
+
+    /* animated model renders on the fake-ass tile from spriteModels.txt */
+
+    model TornadoSiren
+    {
+        mesh = IsoObject/TornadoSiren,
+        animationsMesh = SirenMesh,
+        texture = TornadoSiren,
+        static = false,
+        scale = 1.0,
+        undoCoreScale = true,
+    }
+
+    /* this is just the non-spinny model */
+    model TornadoSirenGround
+    {
+        mesh = WorldItems/TornadoSiren,
+        texture = TornadoSiren,
+        scale = 1.0,
+    }
+}

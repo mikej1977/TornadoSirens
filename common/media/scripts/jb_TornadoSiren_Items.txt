@@ -1,0 +1,11 @@
+module TornadoSirenMod
+{
+    item TornadoSiren
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 10.0,
+        Icon = Amplifier,
+        WorldStaticModel = TornadoSirenMod.TornadoSirenGround,
+    }
+}
