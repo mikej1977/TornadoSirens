@@ -15,7 +15,7 @@ TornadoSiren.Config = {
 
     SPIN_SECONDS = 15.0,    -- real seconds per full rotation
     SPIN_STEPS = 360,       -- frames per rotation
-    RUN_SECONDS = 120.0,    -- how long it spins
+    RUN_SECONDS = 120.0,    -- how many seconds it spins
 
     SOUND_RADIUS = 200,
     SOUND_VOLUME = 100,
